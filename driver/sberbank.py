@@ -9,26 +9,35 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from driver.locators import EXCHANGE_RATES_WIDGET
+from driver.locators import WIDGET_PARENT, EXCHANGE_RATES_WIDGET
 
 
 
-class Widget(object):
+class WidgetsFrame(object):
 
     def __init__(self):
         self.__driver = webdriver.Firefox()
         print(1)
         self.__driver.get("http://www.sberbank.ru/ru/person")
         print(2)
-        WebDriverWait(self.__driver, 10).until(EC.element_to_be_clickable(EXCHANGE_RATES_WIDGET))
-        self.elem = self.__driver.find_element(*EXCHANGE_RATES_WIDGET)
+        WebDriverWait(self.__driver, 10).until(EC.presence_of_element_located(WIDGET_PARENT))
+        # import time
+        # time.sleep(10)
+        self.elem = self.__driver.find_element(*WIDGET_PARENT)
         print(3)
 
     def metals_active(self):
         print('OK')
 
 
+    def __del__(self):
+        self.__driver.close()
+
+
 if __name__ == '__main__':
 
-    w = Widget()
+    w = WidgetsFrame()
     w.metals_active()
+#\33 1dd528b-7614-4ccf-b6c2-087cd5f1b821
+
+# InvalidSelectorError: Compound class names not permitted
