@@ -1,0 +1,60 @@
+{
+  "time" : {
+    "start" : 1474854160110,
+    "stop" : 1474854200394,
+    "duration" : 40284
+  },
+  "testSuites" : [ {
+    "uid" : "659a64b2b314b323",
+    "name" : "test_sberbank",
+    "title" : "Test sberbank",
+    "time" : {
+      "start" : 1474854160110,
+      "stop" : 1474854200394,
+      "duration" : 40284
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "4180b9bb995385d7",
+      "name" : "test_metals_active[metals_active]",
+      "title" : "Test metals active [metals_active]",
+      "time" : {
+        "start" : 1474854160110,
+        "stop" : 1474854169901,
+        "duration" : 9791
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "90de79b3a0d71a0c",
+      "name" : "test_new_page[click_metals-http:..www.sberbank.ru.ru.person-http:..www.sberbank.ru.ru.quotes.converter.]",
+      "title" : "Test new page [click_metals-http:..www.sberbank.ru.ru.person-http:..www.sberbank.ru.ru.quotes.converter.]",
+      "time" : {
+        "start" : 1474854169942,
+        "stop" : 1474854184791,
+        "duration" : 14849
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "8405634ac6039195",
+      "name" : "test_new_page[click_metals-http:..www.sberbank.ru.ru.person-http:..www.sberbank.ru.ru.quotes.metalbeznal.]",
+      "title" : "Test new page [click_metals-http:..www.sberbank.ru.ru.person-http:..www.sberbank.ru.ru.quotes.metalbeznal.]",
+      "time" : {
+        "start" : 1474854184822,
+        "stop" : 1474854200394,
+        "duration" : 15572
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

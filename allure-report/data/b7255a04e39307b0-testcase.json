@@ -1,0 +1,47 @@
+{
+  "uid" : "b7255a04e39307b0",
+  "name" : "test_mask[3-4]",
+  "title" : "Test mask [3-4]",
+  "time" : {
+    "start" : 1474833993063,
+    "stop" : 1474833993067,
+    "duration" : 4
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert 3 > 4",
+    "stackTrace" : "mask = 3, count = 4\n\n    @pytest.mark.parametrize(['mask', 'count'],\n                             [(10, 0),\n                              (11, 1),\n                              (3, 4)\n                             ])\n    # @pytest.mark.usefixtures(docker)\n    def test_mask(mask, count):\n>       assert mask > count\nE       assert 3 > 4\n\ntest_sberbank.py:11: AssertionError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "915c11cbadaf1ab",
+    "name" : "test_sberbank",
+    "title" : "Test sberbank"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "7625-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "DLD"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_sberbank"
+  } ],
+  "parameters" : [ ]
+}

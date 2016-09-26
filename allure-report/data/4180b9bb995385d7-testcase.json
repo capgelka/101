@@ -1,0 +1,44 @@
+{
+  "uid" : "4180b9bb995385d7",
+  "name" : "test_metals_active[metals_active]",
+  "title" : "Test metals active [metals_active]",
+  "time" : {
+    "start" : 1474854160110,
+    "stop" : 1474854169901,
+    "duration" : 9791
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "659a64b2b314b323",
+    "name" : "test_sberbank",
+    "title" : "Test sberbank"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DLD"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "27479-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_sberbank"
+  } ],
+  "parameters" : [ ]
+}

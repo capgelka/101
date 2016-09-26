@@ -1,0 +1,44 @@
+{
+  "uid" : "539278a6057e7c4c",
+  "name" : "test_mask[10-0]",
+  "title" : "Test mask [10-0]",
+  "time" : {
+    "start" : 1474833993060,
+    "stop" : 1474833993061,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "915c11cbadaf1ab",
+    "name" : "test_sberbank",
+    "title" : "Test sberbank"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "7625-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "DLD"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_sberbank"
+  } ],
+  "parameters" : [ ]
+}

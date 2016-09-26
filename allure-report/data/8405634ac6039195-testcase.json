@@ -1,0 +1,44 @@
+{
+  "uid" : "8405634ac6039195",
+  "name" : "test_new_page[click_metals-http:..www.sberbank.ru.ru.person-http:..www.sberbank.ru.ru.quotes.metalbeznal.]",
+  "title" : "Test new page [click_metals-http:..www.sberbank.ru.ru.person-http:..www.sberbank.ru.ru.quotes.metalbeznal.]",
+  "time" : {
+    "start" : 1474854184822,
+    "stop" : 1474854200394,
+    "duration" : 15572
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "659a64b2b314b323",
+    "name" : "test_sberbank",
+    "title" : "Test sberbank"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DLD"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "27479-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_sberbank"
+  } ],
+  "parameters" : [ ]
+}
