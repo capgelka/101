@@ -34,6 +34,6 @@ def test_metals_active(page, check_name):
 def test_new_page(page, preactions, old, new):
     if preactions is not None:
         getattr(page, preactions)()
-    assert page,url == old
+    assert page.url == old
     page.click_info()
     assert page.url == new
