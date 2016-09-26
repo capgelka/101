@@ -32,7 +32,7 @@ def test_metals_active(page, check_name):
 @pytest.mark.parametrize(['preactions', 'old', 'new'], 
                          params['test_new_page'])
 def test_new_page(page, preactions, old, new):
-    if preactions is not None:
+    if preactions != '-':
         getattr(page, preactions)()
     assert page,url == old
     page.click_info()

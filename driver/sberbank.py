@@ -49,8 +49,8 @@ class WidgetFrame(object):
         return self._element_exists(*L.PALLADIUM)
 
     def click_info(self):
-        info = L.DOLLAR_INFO if not self.metals_active else L.METAL_INFO
-        logo = L.NEW_LOGO if not self.metals_active else L.METAL_LOGO
+        info = L.DOLLAR_INFO if not self.metals_active() else L.METAL_INFO
+        logo = L.NEW_LOGO if not self.metals_active() else L.METAL_LOGO
         WebDriverWait(self.__driver, 10).until(EC.presence_of_element_located(info))
         self.__driver.find_element(*info).click()
         WebDriverWait(self.__driver, 10).until(EC.presence_of_element_located(logo))

@@ -1,4 +1,4 @@
 test_metals_active,metals_active
-test_new_page,click_metals,http://www.sberbank.ru/ru/person,http://www.sberbank.ru/ru/quotes/converter/
+test_new_page,-,http://www.sberbank.ru/ru/person,http://www.sberbank.ru/ru/quotes/converter/
 test_new_page,click_metals,http://www.sberbank.ru/ru/person,http://www.sberbank.ru/ru/quotes/metalbeznal/
 
